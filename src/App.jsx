@@ -13,7 +13,7 @@ const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className='w-full min-h-screen bg-zinc-900 font-["satoshi"] text-white'>
-      {/* <Loader/> */}
+      <Loader/>
       <Navbar />
       <Work/>
       <Stripes/>
